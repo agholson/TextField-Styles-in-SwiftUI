@@ -19,9 +19,15 @@ struct ContentView: View {
                     .frame(height: 40) // Makes the rectangle smaller
                 
                 // Place the text field on top
-                TextField("Enter your text...", text: $inputText)
-                    .padding(.horizontal)
+                HStack {
+                    Image(systemName: "magnifyingglass")
+                        .foregroundColor(.gray)
+                    TextField("Enter your text...", text: $inputText)
+                    
+                }
+                .padding(.horizontal)
             }
+            .shadow(radius: 5.0)
         }
         .padding()
     }

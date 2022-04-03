@@ -17,6 +17,7 @@ struct ContentView: View {
 }
 ```
 Creates the following simple text field:
+
 ![Simple text field](img/textField.jpeg)
 
 ### Rounded TextField Style
@@ -46,3 +47,25 @@ VStack {
 .padding()
 ```
 ![Gray border](img/grayBorderZstack.jpeg)
+
+### Further Improvements with ZStack
+You can add a symbol to make the TextField stick out even more as well as create a shadow for the 
+whole thing:
+```
+ZStack {
+    RoundedRectangle(cornerRadius: 5.0)
+        .stroke(.gray)
+        .frame(height: 40) // Makes the rectangle smaller
+    
+    // Place the text field on top
+    HStack {
+        Image(systemName: "magnifyingglass")
+            .foregroundColor(.gray)
+        TextField("Enter your text...", text: $inputText)
+        
+    }
+    .padding(.horizontal)
+}
+.shadow(radius: 5.0)
+```
+![symbol with shadow](img/withGray.jpeg)

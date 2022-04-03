@@ -23,6 +23,7 @@
 		759A97E927F9D7FF00A6D4D5 /* textField.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = textField.jpeg; sourceTree = "<group>"; };
 		759A97EA27F9D92800A6D4D5 /* roundedTextField.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = roundedTextField.jpeg; sourceTree = "<group>"; };
 		759A97EB27F9DAE600A6D4D5 /* grayBorderZstack.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = grayBorderZstack.jpeg; sourceTree = "<group>"; };
+		759A97ED27F9DD6F00A6D4D5 /* withGray.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = withGray.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				759A97EB27F9DAE600A6D4D5 /* grayBorderZstack.jpeg */,
+				759A97ED27F9DD6F00A6D4D5 /* withGray.jpeg */,
 				759A97E927F9D7FF00A6D4D5 /* textField.jpeg */,
 				759A97EA27F9D92800A6D4D5 /* roundedTextField.jpeg */,
 			);

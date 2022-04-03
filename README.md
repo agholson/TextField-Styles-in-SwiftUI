@@ -17,7 +17,7 @@ struct ContentView: View {
 }
 ```
 Creates the following simple text field:
-![Simple text field](img/textField.jpeg)
+![Simple text field](img\textField.jpeg)
 
 ### Rounded TextField Style
 You can apply a few styles to TextFields, in order to make them stand-out more. This modifier
@@ -25,7 +25,7 @@ creates a slight gray rectangle around the TextField:
 ```
 .textFieldStyle(RoundedBorderTextFieldStyle())
 ```
-![Rounded text style](img/roundedTextField.jpeg)
+![Rounded text style](img\roundedTextField.jpeg)
 
 ### Customized with ZStacks
 You can further customize the box/ style around the TextField by using a ZStack to place
@@ -45,4 +45,4 @@ VStack {
 }
 .padding()
 ```
-![Gray border](img/grayBorderZstack.jpeg)
+![Gray border](img\grayBorderZstack.jpeg)

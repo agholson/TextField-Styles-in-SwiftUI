@@ -41,9 +41,6 @@
 			children = (
 				759A97E727F9D69E00A6D4D5 /* README.md */,
 				759A97E827F9D7AF00A6D4D5 /* img */,
-				759A97E927F9D7FF00A6D4D5 /* textField.jpeg */,
-				759A97EB27F9DAE600A6D4D5 /* grayBorderZstack.jpeg */,
-				759A97EA27F9D92800A6D4D5 /* roundedTextField.jpeg */,
 				759A97D827F9D5B000A6D4D5 /* M1L5StylingTextFields */,
 				759A97D727F9D5B000A6D4D5 /* Products */,
 			);
@@ -79,6 +76,9 @@
 		759A97E827F9D7AF00A6D4D5 /* img */ = {
 			isa = PBXGroup;
 			children = (
+				759A97EB27F9DAE600A6D4D5 /* grayBorderZstack.jpeg */,
+				759A97E927F9D7FF00A6D4D5 /* textField.jpeg */,
+				759A97EA27F9D92800A6D4D5 /* roundedTextField.jpeg */,
 			);
 			path = img;
 			sourceTree = "<group>";

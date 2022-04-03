@@ -8,9 +8,22 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var inputText = ""
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            ZStack {
+                RoundedRectangle(cornerRadius: 5.0)
+                    .stroke(.gray)
+                    .frame(height: 40) // Makes the rectangle smaller
+                
+                // Place the text field on top
+                TextField("Enter your text...", text: $inputText)
+                    .padding(.horizontal)
+            }
+        }
+        .padding()
     }
 }
 

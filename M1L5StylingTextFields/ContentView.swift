@@ -13,21 +13,8 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-            ZStack {
-                RoundedRectangle(cornerRadius: 5.0)
-                    .stroke(.gray)
-                    .frame(height: 40) // Makes the rectangle smaller
-                
-                // Place the text field on top
-                HStack {
-                    Image(systemName: "magnifyingglass")
-                        .foregroundColor(.gray)
-                    TextField("Enter your text...", text: $inputText)
-                    
-                }
-                .padding(.horizontal)
-            }
-            .shadow(radius: 5.0)
+            TextField("Enter text here...", text: $inputText)
+                .textFieldStyle(CustomTextFieldStyle())
         }
         .padding()
     }

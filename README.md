@@ -3,6 +3,14 @@ This repo describes how to style the TextFields, or the SwiftUI elements designe
 input data. Based on the amazing lessons from CodeWithChris.com, Design course module 1
 lesson 5: https://learn.codewithchris.com/courses/take/design/lessons/25824185-lesson-5-styling-textfields.
 
+- [TextField Styles in SwiftUI](#textfield-styles-in-swiftui)
+  - [Design](#design)
+    - [Simple TextField](#simple-textfield)
+    - [Rounded TextField Style](#rounded-textfield-style)
+    - [Customized with ZStacks](#customized-with-zstacks)
+    - [Further Improvements with ZStack](#further-improvements-with-zstack)
+    - [Re-Using Custom Style](#re-using-custom-style)
+
 ## Design
 ### Simple TextField
 A text field needs a description as well as a `State` property to bind to
@@ -69,3 +77,11 @@ ZStack {
 .shadow(radius: 5.0)
 ```
 ![symbol with shadow](img/withGray.jpeg)
+
+### Re-Using Custom Style
+You can create your own custom TextField style to re-use over again without the need
+to copy/ paste all that code all along. Place your style code in a new struct, which
+conforms to the TextField style protocol as shown below in the `CustomTextFieldStyle` file:
+```
+
+```
